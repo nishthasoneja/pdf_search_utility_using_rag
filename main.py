@@ -5,7 +5,7 @@ print(fitz.__version__)
 import tiktoken
 from sentence_transformers import SentenceTransformer
 import chromadb
-from openai import OpenAI
+import openai 
 import streamlit as st
 import tempfile
 import os
